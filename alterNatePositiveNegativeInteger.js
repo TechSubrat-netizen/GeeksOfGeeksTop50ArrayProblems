@@ -30,7 +30,7 @@
 class Solution {
     rearrange(arr) {
         // code here
-      let result1 = [];
+     
       let n = arr.length;
         // Separate arrays to hold negative and positive elements
         let neg = [];

@@ -27,7 +27,7 @@ class Solution {
     commonElements(arr1, arr2, arr3) {
         // Code Here
       let map=new Map()
-      arr1.array.forEach(e => {
+      arr1.forEach(e => {
         map.set(e,1)
       });
       arr2.forEach((e)=>{
